@@ -12,3 +12,4 @@ class Ingrediente:
         return self.custo_unitario() * self.qtd_usada
     
     
+    
