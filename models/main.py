@@ -1,6 +1,4 @@
-from ingrediente import Ingrediente
-from produto import Produto
-
+from classes import Ingrediente, Produto
 
 i1 = Ingrediente("Chocolate", 20, 100, 8)
 i2 = Ingrediente("Cacau em pó", 14.5, 300, 22)
