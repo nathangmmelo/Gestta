@@ -1,8 +1,10 @@
 from venda import Venda
+from despesa import Despesa
 
 class Caixa:
     def __init__(self):
         self.vendas = []
+        self.despesas = []
     
     def registrar_venda(self, venda):
         self.vendas.append(venda)
@@ -18,3 +20,7 @@ class Caixa:
         for v in self.vendas:
             total += v.valor_liquido()
         return total
+    
+    def registrar_despesa(self, despesa):
+        self.despesas.append(despesa)
+
